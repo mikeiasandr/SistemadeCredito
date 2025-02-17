@@ -1,0 +1,153 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center;    /* Alinha verticalmente */
+  height: 90vh;
+  /*margin: 0 20% 0 20% ;*/
+}
+
+.titulo{
+  margin: 0 7rem 0 0rem ;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  
+}
+h5{
+  color: #0056b3;
+}
+
+.areaConsulta{
+  text-align: center;
+  width: 30rem;
+  background-color: #b1c0df;
+  border-radius: 2rem;
+  /*margin: 0 20% 0 20% ;*/
+}
+.input{
+  padding: 10px 40px 10px 40px; /* Superior, Direita, Inferior, Esquerda */
+  /*padding-: 30%;*/
+  text-align: center;
+  margin: 5px 20% 5px 20%;
+  border-radius: 5px;
+  border: 0px solid ;
+  /*background-color: #ffffff;*/
+}
+.botao{
+  padding: 10px 40px 10px 40px; /* Superior, Direita, Inferior, Esquerda */
+  /*padding-: 30%;*/
+  text-align: center;
+  margin: 15px 20% 30px 20%;
+  border-radius: 5px;
+  border: 0px solid ;
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+  background-color: rgb(110, 110, 143);
+  
+}
+.search{
+  width: 15rem;
+  height: 2.7rem;
+  border-radius: 0.5rem;
+  background-color: #b1c0df;
+  text-align: center;
+
+}
+
+#buscar{
+  margin: 0;
+  height: 2.7rem;
+  width: 6rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.botao:hover {
+  background-color: #0056b3; /* Cor de fundo mais escura no hover */
+}
+
+.botao:active {
+  transform: scale(0.98); /* Efeito de "pressionado" */
+}
+
+.listInformation{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center; 
+
+}
+
+.searchContainer{
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+}
+
+
+.lista{
+  background-color: #0056b3;
+  border-radius: 1.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 1.4rem;
+  /*width: 100vw;*/
+  list-style: none;
+  margin-bottom: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.par{
+  background-color: rgba(99, 112, 214, 0.396);
+  /*padding-left: 10rem;*/
+}
+
+/*.impar{
+  background-color: rgb(123, 93, 93);
+}*/
+
+li{
+  display: flex;
+  /*justify-content: space-between;*/
+  padding-right: 5rem;
+  padding-left: 3rem;
+}
+
+.pName{
+  width: 28rem;
+}
+.pCpf{
+  width: 26.5rem;
+}
+
+ul{
+  margin: 0;
+  padding: 4rem;
+}
+
+.legenda{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.App-header {
+  background-color: #626a7a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
