@@ -97,7 +97,7 @@ h5{
   padding-bottom: 1.4rem;
   /*width: 100vw;*/
   list-style: none;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding-left: 0;
   padding-right: 0;
 }
@@ -146,6 +146,10 @@ ul{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(255, 255, 255);
+}
+
+.pagination{
+  margin-bottom: 0.5rem;
 }
 
 .App-link {
