@@ -140,7 +140,7 @@ function App() {
       </ul>
 
       <div className='pagination'>
-        <button onClick={previousPage} disabled={prevDocs.length === 0}> &lt;</button>
+        <button className='back' onClick={previousPage} disabled={prevDocs.length === 0}> &lt;</button>
         <button onClick={() => fetchUsers(true)}>&gt;</button>
       </div>
     </>

@@ -137,6 +137,10 @@ ul{
   padding-right: 3rem;
 }
 
+.back{
+  margin-right: 0.2rem;
+}
+
 .App-header {
   background-color: #626a7a;
   min-height: 100vh;
